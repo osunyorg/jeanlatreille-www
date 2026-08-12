@@ -10,7 +10,7 @@ header_text: >-
 url: "/"
 slug: ""
 date: 2026-08-12T15:52:01+02:00
-lastmod: 2026-08-12T22:22:34+02:00
+lastmod: 2026-08-12T22:57:03+02:00
 meta:
   hugo:
     permalink: "/"
@@ -19,7 +19,7 @@ meta:
     slug: ""
   dates:
     created_at: 2026-08-12T15:52:01+02:00
-    updated_at: 2026-08-12T22:22:34+02:00
+    updated_at: 2026-08-12T22:57:03+02:00
     published_at: 2026-08-12T15:52:01+02:00
 search:
   id: "2818c3b4-c32a-4da5-9bba-5391da907214"
@@ -31,7 +31,8 @@ search:
     Accueil
   summary: >-
     <p> Le temps des humains est comme un verre d'eau.<br>On peut le voir à  moitié rempli de tous nos jours passés. Quel que soit notre âge, nous  avons déjà bien occupé notre existence : on a beaucoup ri, beaucoup  pleuré et beaucoup aimé.<br>Mais ce verre-là, jusqu'à la fin, restera à  moitié vide. Nous aurons toujours des jours, des semaines, pourquoi pas  des années à remplir de notre humanité. Nous allons occuper le temps qui  reste à le remplir de nos joies, de nos tendresses et de nos peurs.<br>La quantité de temps qui reste n'a pas vraiment d'importance, au fond.  </p>
-
+  body: >-
+    <p>Essais </p>  <p> Articles </p>  <p> Humeurs </p>  <p> Presse </p>  <p> Conférences </p>
 
 breadcrumbs:
   - title: >-
@@ -61,6 +62,7 @@ children:
   - "pages/dans-la-presse/_index.html"
   - "pages/essais/_index.html"
   - "pages/articles/_index.html"
+  - "pages/conferences-1/_index.html"
 child_pages:
   - permalink: "/personnes/"
     path: "/persons"
@@ -94,6 +96,10 @@ child_pages:
     path: "/pages/articles"
     slug: "articles"
     file: "content/fr/pages/articles/_index.html"
+  - permalink: "/conferences-1/"
+    path: "/pages/conferences-1"
+    slug: "conferences-1"
+    file: "content/fr/pages/conferences-1/_index.html"
 
 summary: >-
   <p> Le temps des humains est comme un verre d'eau.<br>On peut le voir à  moitié rempli de tous nos jours passés. Quel que soit notre âge, nous  avons déjà bien occupé notre existence : on a beaucoup ri, beaucoup  pleuré et beaucoup aimé.<br>Mais ce verre-là, jusqu'à la fin, restera à  moitié vide. Nous aurons toujours des jours, des semaines, pourquoi pas  des années à remplir de notre humanité. Nous allons occuper le temps qui  reste à le remplir de nos joies, de nos tendresses et de nos peurs.<br>La quantité de temps qui reste n'a pas vraiment d'importance, au fond.  </p>
@@ -101,33 +107,180 @@ header_cta:
 
 
 contents_reading_time:
-  seconds: 0
+  seconds: 2
   text: >-
     moins d'une minute
 contents:
   - kind: block
-    template: posts
-
-
+    template: pages
+    title: >-
+      Essais
+    slug: >-
+      essais
     ranks:
       base: 2
+      self: 2
     top:
-      active: false
+      active: true
+      title: 
+        value: >-
+          Essais
+        heading: 2
+        link: "/essais/"
 
     data:
-      mode: all
-      all: true
-      layout: grid
+      page:
+        permalink: "/essais/"
+        path: "/pages/essais"
+        slug: "essais"
+        file: "content/fr/pages/essais/_index.html"
       options:
-        author: false
+        image: false
+        subtitle: false
         categories: false
-        date: false
-        image: true
-        reading_time: false
-        subtitle: true
-        summary: true
+        main_summary: false
+        summary: false
 
-      posts:
+      layout: grid
+      pages:
+
+      quantity: 0
+
+
+  - kind: block
+    template: pages
+    title: >-
+      Articles
+    slug: >-
+      articles
+    ranks:
+      base: 2
+      self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          Articles
+        heading: 2
+        link: "/articles/"
+
+    data:
+      page:
+        permalink: "/articles/"
+        path: "/pages/articles"
+        slug: "articles"
+        file: "content/fr/pages/articles/_index.html"
+      options:
+        image: false
+        subtitle: false
+        categories: false
+        main_summary: false
+        summary: false
+
+      layout: grid
+      pages:
+
+      quantity: 0
+
+
+  - kind: block
+    template: pages
+    title: >-
+      Humeurs
+    slug: >-
+      humeurs
+    ranks:
+      base: 2
+      self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          Humeurs
+        heading: 2
+        link: "/humeurs/"
+
+    data:
+      page:
+        permalink: "/humeurs/"
+        path: "/pages/humeurs"
+        slug: "humeurs"
+        file: "content/fr/pages/humeurs/_index.html"
+      options:
+        image: false
+        subtitle: false
+        categories: false
+        main_summary: false
+        summary: false
+
+      layout: grid
+      pages:
+
+      quantity: 0
+
+
+  - kind: block
+    template: pages
+    title: >-
+      Presse
+    slug: >-
+      presse
+    ranks:
+      base: 2
+      self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          Presse
+        heading: 2
+
+    data:
+      options:
+        image: false
+        subtitle: false
+        categories: false
+        main_summary: false
+        summary: false
+
+      layout: grid
+      pages:
+
+      quantity: 0
+
+
+  - kind: block
+    template: pages
+    title: >-
+      Conférences
+    slug: >-
+      conferences
+    ranks:
+      base: 2
+      self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          Conférences
+        heading: 2
+        link: "/conferences-1/"
+
+    data:
+      page:
+        permalink: "/conferences-1/"
+        path: "/pages/conferences-1"
+        slug: "conferences-1"
+        file: "content/fr/pages/conferences-1/_index.html"
+      options:
+        image: false
+        subtitle: false
+        categories: false
+        main_summary: false
+        summary: false
+
+      layout: grid
+      pages:
 
       quantity: 0
 
