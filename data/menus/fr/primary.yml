@@ -3,7 +3,7 @@ title: Menu principal
 items:
 - title: Actualités
   slug: actualites
-  target: "/actualites/"
+  target: "/publications/"
   kind: page
   new_tab: false
   children: []
