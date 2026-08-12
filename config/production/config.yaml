@@ -7,6 +7,10 @@ osuny:
   website:
     id: 1234ba80-61e7-4cb6-a674-6181b54ec1fa
 
+## PARAMS
+params:
+  _merge: deep
+  plausible: "jeanlatreille.fr"
 
 ## LANGUAGE
 defaultContentLanguage: fr
