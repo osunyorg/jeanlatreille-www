@@ -15,18 +15,18 @@ for = ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.webp"]
 Cache-Control = "max-age=31536000, no-transform, public"
 
 [[redirects]]
-from = "/personnes/index.html"
-to = "/articles/"
-
-[[redirects]]
 from = "/publications/index.html"
-to = "/essais/"
+to = "/actualites/"
 
 [[redirects]]
-from = "/actualites/index.html"
-to = "/essais/"
+from = "/personnes/equipe-editoriale/index.html"
+to = "/articles/equipe-editoriale/"
 
 [[redirects]]
 from = "/personnes/jean-latreille/actualites/index.html"
 to = "/personnes/jean-latreille/publications/"
+
+[[redirects]]
+from = "/articles/index.html"
+to = "/personnes/"
 
