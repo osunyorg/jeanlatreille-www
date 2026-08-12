@@ -15,6 +15,14 @@ for = ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.webp"]
 Cache-Control = "max-age=31536000, no-transform, public"
 
 [[redirects]]
+from = "/actualites/2026-08-12-le-temps-qui-reste/index.html"
+to = "/publications/2026-08-12-le-temps-qui-reste/"
+
+[[redirects]]
 from = "/actualites/index.html"
 to = "/publications/"
+
+[[redirects]]
+from = "/personnes/jean-latreille/actualites/index.html"
+to = "/personnes/jean-latreille/publications/"
 
