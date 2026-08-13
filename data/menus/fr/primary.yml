@@ -10,4 +10,13 @@ items:
   descendants_targets: []
   path: "/pages/a-propos"
   file: content/fr/pages/a-propos/_index.html
+- title: Essais
+  slug: essais
+  target: ''
+  kind: url
+  new_tab: true
+  children: []
+  descendants_targets: []
+  path: "/pages/essais"
+  file: content/fr/pages/essais/_index.html
 
