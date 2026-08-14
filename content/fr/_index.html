@@ -58,15 +58,15 @@ image:
 
 
 children:
+  - "posts/_index.html"
   - "persons/_index.html"
   - "organizations/_index.html"
   - "pages/a-propos/_index.html"
-  - "pages/humeurs/_index.html"
-  - "pages/dans-la-presse/_index.html"
-  - "pages/essais/_index.html"
-  - "pages/articles/_index.html"
-  - "pages/conferences-1/_index.html"
 child_pages:
+  - permalink: "/publications/"
+    path: "/posts"
+    slug: "publications"
+    file: "content/fr/posts/_index.html"
   - permalink: "/personnes/"
     path: "/persons"
     slug: "personnes"
@@ -79,26 +79,6 @@ child_pages:
     path: "/pages/a-propos"
     slug: "a-propos"
     file: "content/fr/pages/a-propos/_index.html"
-  - permalink: "/humeurs/"
-    path: "/pages/humeurs"
-    slug: "humeurs"
-    file: "content/fr/pages/humeurs/_index.html"
-  - permalink: "/dans-la-presse/"
-    path: "/pages/dans-la-presse"
-    slug: "dans-la-presse"
-    file: "content/fr/pages/dans-la-presse/_index.html"
-  - permalink: "/essais/"
-    path: "/pages/essais"
-    slug: "essais"
-    file: "content/fr/pages/essais/_index.html"
-  - permalink: "/articles/"
-    path: "/pages/articles"
-    slug: "articles"
-    file: "content/fr/pages/articles/_index.html"
-  - permalink: "/conferences-1/"
-    path: "/pages/conferences-1"
-    slug: "conferences-1"
-    file: "content/fr/pages/conferences-1/_index.html"
 
 summary: >-
   <p> Le temps des humains est comme un verre d'eau.</p><p>On peut le voir à  moitié rempli de tous nos jours passés. Quel que soit notre âge, nous  avons déjà bien occupé notre existence : on a beaucoup ri, beaucoup  pleuré et beaucoup aimé.</p><p><br>Mais ce verre-là, jusqu'à la fin, restera à  moitié vide. Nous aurons toujours des jours, des semaines, pourquoi pas  des années à remplir de notre humanité. Nous allons occuper le temps qui  reste à le remplir de nos joies, de nos tendresses et de nos peurs.</p><p><br>La quantité de temps qui reste n'a pas vraiment d'importance, au fond.  </p><p>"Ce qui compte, c'est ce qu'on va faire du temps qui reste" (Gandalf-le-Gris, Le Seigneur des Anneaux, JRR Tolkien)</p>
@@ -125,14 +105,8 @@ contents:
         value: >-
           Essais
         heading: 2
-        link: "/essais/"
 
     data:
-      page:
-        permalink: "/essais/"
-        path: "/pages/essais"
-        slug: "essais"
-        file: "content/fr/pages/essais/_index.html"
       options:
         image: false
         subtitle: false
@@ -161,14 +135,8 @@ contents:
         value: >-
           Articles
         heading: 2
-        link: "/articles/"
 
     data:
-      page:
-        permalink: "/articles/"
-        path: "/pages/articles"
-        slug: "articles"
-        file: "content/fr/pages/articles/_index.html"
       options:
         image: false
         subtitle: false
@@ -197,14 +165,8 @@ contents:
         value: >-
           Humeurs
         heading: 2
-        link: "/humeurs/"
 
     data:
-      page:
-        permalink: "/humeurs/"
-        path: "/pages/humeurs"
-        slug: "humeurs"
-        file: "content/fr/pages/humeurs/_index.html"
       options:
         image: false
         subtitle: false
@@ -233,14 +195,8 @@ contents:
         value: >-
           Presse
         heading: 2
-        link: "/dans-la-presse/"
 
     data:
-      page:
-        permalink: "/dans-la-presse/"
-        path: "/pages/dans-la-presse"
-        slug: "dans-la-presse"
-        file: "content/fr/pages/dans-la-presse/_index.html"
       options:
         image: false
         subtitle: false
@@ -269,14 +225,8 @@ contents:
         value: >-
           Conférences
         heading: 2
-        link: "/conferences-1/"
 
     data:
-      page:
-        permalink: "/conferences-1/"
-        path: "/pages/conferences-1"
-        slug: "conferences-1"
-        file: "content/fr/pages/conferences-1/_index.html"
       options:
         image: false
         subtitle: false

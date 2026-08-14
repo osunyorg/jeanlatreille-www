@@ -19,6 +19,10 @@ from = "/articles/equipe-editoriale/index.html"
 to = "/personnes/equipe-editoriale/"
 
 [[redirects]]
+from = "/actualites/index.html"
+to = "/publications/"
+
+[[redirects]]
 from = "/personnes/jean-latreille/actualites/index.html"
 to = "/personnes/jean-latreille/publications/"
 
