@@ -1,6 +1,51 @@
 ---
 title: Menu principal
 items:
+- title: Articles
+  slug: articles
+  target: "/publications/articles/"
+  kind: category
+  new_tab: false
+  children: []
+  descendants_targets: []
+  path: "/posts_categories/articles"
+  file: content/fr/posts_categories/articles/_index.html
+- title: Conférences
+  slug: conferences
+  target: "/publications/conferences/"
+  kind: category
+  new_tab: false
+  children: []
+  descendants_targets: []
+  path: "/posts_categories/conferences"
+  file: content/fr/posts_categories/conferences/_index.html
+- title: Dans la presse
+  slug: dans-la-presse
+  target: "/publications/dans-la-presse/"
+  kind: category
+  new_tab: false
+  children: []
+  descendants_targets: []
+  path: "/posts_categories/dans-la-presse"
+  file: content/fr/posts_categories/dans-la-presse/_index.html
+- title: Essais
+  slug: essais
+  target: "/publications/essais/"
+  kind: category
+  new_tab: false
+  children: []
+  descendants_targets: []
+  path: "/posts_categories/essais"
+  file: content/fr/posts_categories/essais/_index.html
+- title: Humeurs
+  slug: humeurs
+  target: "/publications/humeurs/"
+  kind: category
+  new_tab: false
+  children: []
+  descendants_targets: []
+  path: "/posts_categories/humeurs"
+  file: content/fr/posts_categories/humeurs/_index.html
 - title: À propos
   slug: a-propos
   target: "/a-propos/"
