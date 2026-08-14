@@ -15,12 +15,28 @@ for = ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.webp"]
 Cache-Control = "max-age=31536000, no-transform, public"
 
 [[redirects]]
+from = "/publications/2026-08-14-le-pib-ou-la-mesure-de-notre-demesure/index.html"
+to = "/publications/2024-08-14-le-pib-ou-la-mesure-de-notre-demesure/"
+
+[[redirects]]
+from = "/publications/2026-08-14-sale-temps-pour-leconomie-marchande/index.html"
+to = "/publications/2021-08-14-sale-temps-pour-leconomie-marchande/"
+
+[[redirects]]
 from = "/articles/equipe-editoriale/index.html"
 to = "/personnes/equipe-editoriale/"
 
 [[redirects]]
+from = "/publications/2026-08-14-escronomistes/index.html"
+to = "/publications/2022-08-14-escronomistes/"
+
+[[redirects]]
 from = "/actualites/index.html"
 to = "/publications/"
+
+[[redirects]]
+from = "/publications/2026-08-14-mon-professeur-bien-haime/index.html"
+to = "/publications/2001-03-14-mon-professeur-bien-haime/"
 
 [[redirects]]
 from = "/personnes/jean-latreille/actualites/index.html"
@@ -28,5 +44,13 @@ to = "/personnes/jean-latreille/publications/"
 
 [[redirects]]
 from = "/publications/2026-08-14-merci-les-pauvres-1/index.html"
-to = "/publications/2024-08-14-merci-les-pauvres-1/"
+to = "/publications/2018-08-14-merci-les-pauvres-1/"
+
+[[redirects]]
+from = "/publications/2024-08-14-merci-les-pauvres-1/index.html"
+to = "/publications/2018-08-14-merci-les-pauvres-1/"
+
+[[redirects]]
+from = "/publications/2026-08-14-cinoche-et-societe/index.html"
+to = "/publications/2019-08-14-cinoche-et-societe/"
 
