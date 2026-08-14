@@ -26,3 +26,7 @@ to = "/publications/"
 from = "/personnes/jean-latreille/actualites/index.html"
 to = "/personnes/jean-latreille/publications/"
 
+[[redirects]]
+from = "/publications/2026-08-14-merci-les-pauvres-1/index.html"
+to = "/publications/2024-08-14-merci-les-pauvres-1/"
+
