@@ -1,13 +1,53 @@
-theme: osuny
+theme:
+  - osuny
+  - osuny-plugin-centered-header
+  - osuny-plugin-centered-footer
 _merge: deep
 params:
+  breadcrumb:
+    position: after-hero
   summary:
     position: hero
   search:
     active: true
   logo:
-    header: ''
-    footer: ''
+    header: '/assets/images/logo-blanc.svg'
+    footer: '/assets/images/icon.svg'
   home:
     head:
       title: site
+  posts:
+    index:
+      layout: list # grid | list
+      options:
+        author: false
+        categories: true
+        date: true
+        image: true
+        reading_time: true
+        summary: true
+        subtitle: true
+      truncate_description: 200 # Set to 0 to disable truncate
+    single:
+      meta:
+        position: hero
+        options:
+          authors: false
+          taxonomies: false
+          published_at: true
+          reading_time: true
+          share: true
+          updated_at: false
+          with_labels: false
+      options:
+        signature: true
+  share_links:
+    enabled: true
+    email: true
+    facebook: false
+    linkedin: true
+    mastodon: true
+    telegram: false
+    twitter: false
+    whatsapp: false
+    

@@ -1,0 +1,36 @@
+*
+    letter-spacing: -2.5% !important
+@include media-breakpoint-up(desktop)
+    header#document-header
+        nav.primary-menu
+            > .container
+                gap: $spacing-3
+                .active
+                    position: relative
+                    &::after
+                        content: "•"
+                        position: absolute
+                        bottom: -10px
+                        transform: translateX(-2px)
+                        left: 50%
+    .hero
+        .content
+            display: flex
+            flex-direction: column-reverse
+            align-items: center
+            figure
+                width: columns(4)
+                picture
+                    background: $color-paper
+                    padding: 10px
+                    border-radius: 4px
+                    img
+                        border-radius: 4px
+            .hero-text
+                width: columns(10)
+                text-align: center
+        .single-meta
+            width: 100%
+            justify-content: center
+            ul
+                justify-content: center
