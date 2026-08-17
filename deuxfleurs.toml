@@ -39,6 +39,10 @@ from = "/publications/2026-08-14-mon-professeur-bien-haime/index.html"
 to = "/publications/2001-03-14-mon-professeur-bien-haime/"
 
 [[redirects]]
+from = "/publications/2026-08-17-robert-solow-ou-les-habits-economiques-conventionnels-des-theories-de-la-transition/index.html"
+to = "/publications/2025-01-30-robert-solow-ou-les-habits-economiques-conventionnels-des-theories-de-la-transition/"
+
+[[redirects]]
 from = "/personnes/jean-latreille/actualites/index.html"
 to = "/personnes/jean-latreille/publications/"
 
