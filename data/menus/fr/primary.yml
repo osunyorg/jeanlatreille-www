@@ -55,4 +55,11 @@ items:
   descendants_targets: []
   path: "/pages/a-propos"
   file: content/fr/pages/a-propos/_index.html
+- title: Lectures
+  slug: lectures
+  target: ''
+  kind: blank
+  new_tab: false
+  children: []
+  descendants_targets: []
 
