@@ -1,5 +1,52 @@
 *
     letter-spacing: -2.5% !important
+@include media-breakpoint-down(desktop)
+    header#document-header
+        .primary-menu
+            .container
+                display: block
+                > button
+                    float: right
+                    margin-top: pxToRem(-30)
+                .logo
+                    img
+                        width: 100%
+                        height: auto
+                .menu
+                    .nav-level-1
+                        padding-bottom: $spacing-2
+                        > li
+                            border-bottom: none
+                            a
+                                padding: $spacing-1 0
+                                font-size: pxToRem(26)
+                                line-height: 120%
+            .header-button
+                margin-right: -4px
+    .breadcrumb-container
+        margin-top: 0 !important
+    .toc-title,
+    .toc-cta,
+    .toc-container button
+        color: $color-white
+    .toc-cta
+        border-top-color: $color-white
+        .toc-cta-title
+            &::after,
+            span
+                color: $color-white
+    .toc
+        ol
+            li
+                position: relative
+                a,
+                a.active
+                    color: $color-white
+                a.active
+                    &::before
+                        content: "• "
+                        position: absolute
+                        left: -13px
 @include media-breakpoint-up(desktop)
     header#document-header
         nav.primary-menu
