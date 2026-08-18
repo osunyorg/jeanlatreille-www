@@ -47,6 +47,10 @@ from = "/publications/2026-08-17-robert-solow-ou-les-habits-economiques-conventi
 to = "/publications/2025-01-30-robert-solow-ou-les-habits-economiques-conventionnels-des-theories-de-la-transition/"
 
 [[redirects]]
+from = "/publications/2026-08-17-le-futur-de-lan-2000-est-deja-devenu-ringard/index.html"
+to = "/publications/2026-06-03-le-futur-de-lan-2000-est-deja-devenu-ringard/"
+
+[[redirects]]
 from = "/personnes/jean-latreille/actualites/index.html"
 to = "/personnes/jean-latreille/publications/"
 
