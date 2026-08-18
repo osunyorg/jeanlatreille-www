@@ -48,11 +48,13 @@ items:
   file: content/fr/posts_categories/humeurs/_index.html
 - title: Lectures
   slug: lectures
-  target: ''
-  kind: blank
+  target: "/publications/lectures/"
+  kind: category
   new_tab: false
   children: []
   descendants_targets: []
+  path: "/posts_categories/lectures"
+  file: content/fr/posts_categories/lectures/_index.html
 - title: À propos
   slug: a-propos
   target: "/a-propos/"
