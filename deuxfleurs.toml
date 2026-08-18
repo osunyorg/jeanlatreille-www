@@ -27,6 +27,10 @@ from = "/articles/equipe-editoriale/index.html"
 to = "/personnes/equipe-editoriale/"
 
 [[redirects]]
+from = "/publications/2025-08-17-pourquoi-licone-raclette-ne-verra-jamais-le-jour/index.html"
+to = "/publications/2025-06-23-pourquoi-licone-raclette-ne-verra-jamais-le-jour/"
+
+[[redirects]]
 from = "/publications/2026-08-14-escronomistes/index.html"
 to = "/publications/2022-08-14-escronomistes/"
 
