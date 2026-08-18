@@ -1,5 +1,21 @@
 *
     letter-spacing: -2.5% !important
+.hero
+    .content
+        h1 
+            > span
+                color: white
+                font-family: "Argesta Text", serif
+                font-style: italic
+                font-weight: normal
+                font-size: var(--lead-hero-size)
+                line-height: var(--lead-hero-line-height)
+                margin-top: $spacing-1
+.post
+    .post-subtitle
+        font-style: italic
+        font-weight: normal
+
 @include media-breakpoint-down(desktop)
     header#document-header
         .primary-menu
