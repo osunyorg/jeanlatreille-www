@@ -46,6 +46,15 @@ items:
   descendants_targets: []
   path: "/posts_categories/humeurs"
   file: content/fr/posts_categories/humeurs/_index.html
+- title: Cinéma
+  slug: cinema
+  target: "/publications/cinema/"
+  kind: category
+  new_tab: false
+  children: []
+  descendants_targets: []
+  path: "/posts_categories/cinema"
+  file: content/fr/posts_categories/cinema/_index.html
 - title: Lectures
   slug: lectures
   target: "/publications/lectures/"
