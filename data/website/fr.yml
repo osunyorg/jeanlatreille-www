@@ -2,8 +2,31 @@ default:
   image:
     id: 6b2dcc9b-4c3e-428f-bd77-add5e8404fa0
 contents_reading_time:
-  seconds: 0
+  seconds: 5
   text: >-
     moins d'une minute
 contents:
+  - kind: block
+    template: testimonials
+
+
+    ranks:
+      base: 2
+      children: 2
+    top:
+      active: false
+
+    data:
+      layout: large
+      testimonials:
+        - 
+          text: >-
+            <p>L'important, c'est ce qu'on va faire du temps qui reste</p>
+          author: >-
+            Gandalf
+          job: >-
+            Lord of the Rings, JRR Tolkien
+
+
+
 
