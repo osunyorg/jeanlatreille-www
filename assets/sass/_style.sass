@@ -15,6 +15,20 @@
     .post-subtitle
         font-style: italic
         font-weight: normal
+.block-posts
+    .block-content
+        display: flex
+        flex-direction: column-reverse
+        gap: $spacing-4
+.posts_categories__term
+    .post-categories
+        display: none
+.footer-contents
+    margin-top: $spacing-4
+    padding-top: $spacing-4
+    border-top: 1px solid $color-border
+    .block-testimonials
+        text-align: center
 
 @include media-breakpoint-down(desktop)
     header#document-header
@@ -63,6 +77,15 @@
                         content: "• "
                         position: absolute
                         left: -13px
+    footer#document-footer
+        text-align: center
+        .footer-logo
+            text-align: center
+            padding-bottom: $spacing-4
+            img
+                display: inline
+        .footer-credit
+            margin-top: $spacing-2
 @include media-breakpoint-up(desktop)
     header#document-header
         nav.primary-menu
@@ -102,11 +125,3 @@
             .content
                 h1
                     width: 100%
-.block-posts
-    .block-content
-        display: flex
-        flex-direction: column-reverse
-        gap: $spacing-4
-.posts_categories__term
-    .post-categories
-        display: none
