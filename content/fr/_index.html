@@ -10,7 +10,7 @@ header_text: >-
 url: "/"
 slug: ""
 date: 2026-08-12T15:52:01+02:00
-lastmod: 2026-08-19T08:22:55+02:00
+lastmod: 2026-08-19T20:23:45+02:00
 meta:
   hugo:
     permalink: "/"
@@ -19,7 +19,7 @@ meta:
     slug: ""
   dates:
     created_at: 2026-08-12T15:52:01+02:00
-    updated_at: 2026-08-19T08:22:55+02:00
+    updated_at: 2026-08-19T20:23:45+02:00
     published_at: 2026-08-12T15:52:01+02:00
 search:
   id: "2818c3b4-c32a-4da5-9bba-5391da907214"
@@ -32,7 +32,7 @@ search:
   summary: >-
     <p> Le temps des humains est comme un verre d'eau. Il est déjà à  moitié rempli de tous nos jours passés. Quel que soit notre âge, nous  avons déjà bien occupé notre existence : on a beaucoup ri, beaucoup  pleuré et beaucoup aimé. Mais le verre du temps qui passe, il nous faudra encore le remplir de nos joies, de nos tendresses et de nos peurs. </p><p>La quantité de temps qui reste n'a pas vraiment d'importance, au fond. Elle est trop incertaine.</p><p>L'important, c'est ce qu'on va faire du temps qui reste...</p>
   body: >-
-    <p>Autres articles </p>  <p> Autres conférences & vidéos </p>  <p> Autres tribunes de presse </p>  <p> Autres essais </p>  <p> Autres billets d'humeur </p>  <p> Autres lectures </p>  <p> Autres critiques de films </p>
+    <p>Mes derniers articles  <br> Autres articles </p>  <p> Mes dernières conférences et vidéos  <br> Autres conférences & vidéos </p>  <p> Autres tribunes de presse </p>  <p> Autres essais </p>  <p> Autres billets d'humeur </p>  <p> Autres lectures </p>  <p> Autres critiques de films </p>
 
 breadcrumbs:
   - title: >-
@@ -41,7 +41,7 @@ breadcrumbs:
 design:
   full_width: true
   toc:
-    present: false
+    present: true
     offcanvas: true
 
 
@@ -76,10 +76,30 @@ header_cta:
 
 
 contents_reading_time:
-  seconds: 6
+  seconds: 9
   text: >-
     moins d'une minute
 contents:
+  - kind: block
+    template: title
+    title: >-
+      Mes derniers articles
+    slug: >-
+      mes-derniers-articles
+    ranks:
+      base: 2
+      self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          Mes derniers articles
+        heading: 2
+
+    data:
+      layout: classic
+
+
   - kind: block
     template: posts
     title: >-
@@ -87,15 +107,15 @@ contents:
     slug: >-
       autres-articles
     ranks:
-      base: 2
-      self: 2
-      children: 3
+      base: 3
+      self: 3
+      children: 4
     top:
       active: true
       title: 
         value: >-
           Autres articles
-        heading: 2
+        heading: 3
         link: "/publications/articles/"
 
     data:
@@ -135,21 +155,41 @@ contents:
 
 
   - kind: block
+    template: title
+    title: >-
+      Mes dernières conférences et vidéos
+    slug: >-
+      mes-dernieres-conferences-et-videos
+    ranks:
+      base: 2
+      self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          Mes dernières conférences et vidéos
+        heading: 2
+
+    data:
+      layout: classic
+
+
+  - kind: block
     template: posts
     title: >-
       Autres conférences & vidéos
     slug: >-
       autres-conferences-videos
     ranks:
-      base: 2
-      self: 2
-      children: 3
+      base: 3
+      self: 3
+      children: 4
     top:
       active: true
       title: 
         value: >-
           Autres conférences & vidéos
-        heading: 2
+        heading: 3
         link: "/publications/videos/"
 
     data:
@@ -195,15 +235,15 @@ contents:
     slug: >-
       autres-tribunes-de-presse
     ranks:
-      base: 2
-      self: 2
-      children: 3
+      base: 3
+      self: 3
+      children: 4
     top:
       active: true
       title: 
         value: >-
           Autres tribunes de presse
-        heading: 2
+        heading: 3
         link: "/publications/dans-la-presse/"
 
     data:
@@ -249,15 +289,15 @@ contents:
     slug: >-
       autres-essais
     ranks:
-      base: 2
-      self: 2
-      children: 3
+      base: 3
+      self: 3
+      children: 4
     top:
       active: true
       title: 
         value: >-
           Autres essais
-        heading: 2
+        heading: 3
         link: "/publications/essais/"
 
     data:
@@ -303,15 +343,15 @@ contents:
     slug: >-
       autres-billets-d-humeur
     ranks:
-      base: 2
-      self: 2
-      children: 3
+      base: 3
+      self: 3
+      children: 4
     top:
       active: true
       title: 
         value: >-
           Autres billets d'humeur
-        heading: 2
+        heading: 3
         link: "/publications/humeurs/"
 
     data:
@@ -357,15 +397,15 @@ contents:
     slug: >-
       autres-lectures
     ranks:
-      base: 2
-      self: 2
-      children: 3
+      base: 3
+      self: 3
+      children: 4
     top:
       active: true
       title: 
         value: >-
           Autres lectures
-        heading: 2
+        heading: 3
         link: "/publications/lectures/"
 
     data:
@@ -411,15 +451,15 @@ contents:
     slug: >-
       autres-critiques-de-films
     ranks:
-      base: 2
-      self: 2
-      children: 3
+      base: 3
+      self: 3
+      children: 4
     top:
       active: true
       title: 
         value: >-
           Autres critiques de films
-        heading: 2
+        heading: 3
         link: "/publications/cinema/"
 
     data:
@@ -456,6 +496,7 @@ contents:
             Adolescence
 
       quantity: 3
+
 
 
 
